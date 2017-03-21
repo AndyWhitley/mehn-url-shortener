@@ -1,0 +1,10 @@
+<h2>{{ urls.length }} Urls Found</h2>
+{{#each urls}}
+  <p>{{ this.short }} - {{ this.long }} <a href="/urls/{{this.short}}/delete">delete</a></p>
+{{/each}}
+
+<form action="/urls" method="post">
+  <input type="text" name="url[long]" placeholder="Enter Full Url">
+  <input type="text" name="url[short]" placeholder="Enter Abbreviated Url">
+  <input type="submit" value="Add Url">
+</form>

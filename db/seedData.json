@@ -1,0 +1,14 @@
+[
+  {
+    "short": "fb",
+    "long": "http://www.facebook.com"
+  },
+  {
+    "short": "cnn",
+    "long": "http://www.cnn.com"
+  },
+  {
+    "short": "espn",
+    "long": "http://www.espn.com"
+  }
+]
